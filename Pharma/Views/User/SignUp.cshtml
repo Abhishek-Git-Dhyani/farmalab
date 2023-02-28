@@ -1,0 +1,66 @@
+﻿@model User
+
+<section id="appointment" class="appointment section-bg">
+    <div class="container">
+
+        <form method="post" class="php-email-form">
+            <div class="section-title">
+                <h2>SignIn</h2>
+            </div>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label asp-for="FirstName"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                </div>
+                <div class="col-6">
+                    <label asp-for="LastName"></label>
+                    <input asp-for="LastName" class="form-control" />
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label asp-for="Email"></label>
+                    <input asp-for="Email" class="form-control" />
+                </div>
+                <div class="col-6">
+                    <label asp-for="PhoneNumber"></label>
+                    <input asp-for="PhoneNumber" class="form-control" />
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <label asp-for="Address"></label>
+                    <input asp-for="Address" class="form-control" />
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-4">
+                    <label asp-for="City"></label>
+                    <input asp-for="City" class="form-control" />
+                </div>
+                <div class="col-4">
+                    <label asp-for="PostalCode"></label>
+                    <input asp-for="PostalCode" class="form-control" />
+                </div>
+                <div class="col-4">
+                    <label asp-for="Country"></label>
+                    <input asp-for="Country" class="form-control" />
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label asp-for="Password"></label>
+                    <input asp-for="Password" class="form-control" />
+                </div>
+                <div class="col-6">
+                    <label asp-for="ConfirmPassword"></label>
+                    <input asp-for="ConfirmPassword" class="form-control" />
+                </div>
+            </div>
+            <div class="row mb-3">
+                <button type="submit" class="btn btn-primary" style="width:150px"> Sign-Up</button>
+            </div>
+        </form>
+
+    </div>
+</section>
